@@ -1,3 +1,7 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(pubg.ttf);
+}
 body {
   background-image: url(pubg3.jpg);
   background-repeat: no-repeat;
@@ -41,7 +45,7 @@ body {
   margin: auto;
   margin-top: 8%;
   color: white;
-  font-family: sans-serif;
+  font-family:myFirstFont;
   overflow: hidden;
   overflow-y: auto;
 
@@ -61,7 +65,7 @@ body {
      margin: auto;
      margin-top: 8%;
      color: white;
-     font-family: sans-serif;
+     font-family: myFirstFont;
      overflow: hidden;
      overflow-y: auto;
   }
