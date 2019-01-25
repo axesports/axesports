@@ -6,8 +6,8 @@ body {
   background-image: url(pubg3.jpg);
   background-repeat: no-repeat;
   height: device-height;
-  weight: device-weight;
-  background-position: center;
+  width: device-width;
+  background-position:center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -106,13 +106,6 @@ body {
   font-weight: 100;
   font-family:  Arial Black;
 }
-ul{
-  font-size: 20px;
-  letter-spacing: 0px;
-  font-weight: 100;
-  margin: 0;
-  padding: 0;
-}
 .box li{
   display: inline-block;
   margin: 6px;
@@ -127,29 +120,6 @@ ul{
 .box li a:hover{
   color: #b9b9b9;
 }
-.yt{
-  width: 420px;
-  height: 315px;
-  background-position: center center;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-}
-@media only screen and (max-width: 720px)
-{
-  .yt{
-    width: 100%;
-    height: 100%;
-    position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-  }
-}
-
 .img1{
   width: 170px;
   height: 100px;
