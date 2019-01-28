@@ -16,7 +16,7 @@ body {
   background-color:#464646;
   font-family: 'Century Gothic',sans-serif;
 }
-@media only screen and (max-width: 620px)
+@media only screen and (max-width: 720px)
 {
   body{
     /* The file size of this background image is 93% smaller
@@ -40,7 +40,7 @@ body {
   background: rgba(0, 0, 0, 0.6);
   background-position: center center;
   background-attachment: fixed;
-  padding: 25px;
+  padding: 45px;
   text-align: center;
   margin: auto;
   margin-top: 8%;
@@ -60,7 +60,7 @@ body {
      background: none;
      background-position: center;
      background-attachment: fixed;
-     padding: 25px;
+     padding: 20px;
      text-align: center;
      margin: auto;
      margin-top: 8%;
@@ -125,12 +125,47 @@ body {
   height: 100px;
 }
 .group{
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 95%;
 }
 .round
 {
   width: 100px;
   height: 100px;
   border-radius: 100%;
+}
+
+.tweet{
+  width: 250px;
+  height: auto;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 45px;
+  text-align: center;
+  margin: auto;
+  margin-top: 8%;
+  color: white;
+  font-family:myFirstFont;
+  overflow: hidden;
+
+}
+@media only screen and (max-width: 720px)
+{
+.tweet{
+  /* The file size of this background image is 93% smaller
+   * to improve page load speed on mobile internet connections */
+   width: 250px;
+   height: 250px;
+   background: none;
+   background-position: center;
+   background-attachment: fixed;
+   padding: 20px;
+   text-align: center;
+   margin: auto;
+   margin-top: 8%;
+   color: white;
+   font-family: myFirstFont;
+   overflow: hidden;
+   overflow-y: visible;
+}
 }
