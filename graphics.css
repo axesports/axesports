@@ -55,12 +55,12 @@ body {
   .box{
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-     width: 250px;
+     width: 350px;
      height: auto;
      background: none;
      background-position: center;
      background-attachment: fixed;
-     padding: 20px;
+     padding: 10px;
      text-align: center;
      margin: auto;
      margin-top: 8%;
@@ -152,18 +152,8 @@ body {
 @media only screen and (max-width: 720px)
 {
 .tweet{
-  /* The file size of this background image is 93% smaller
-   * to improve page load speed on mobile internet connections */
-   width: 250px;
-   height: 250px;
-   background: none;
-   background-position: center;
-   background-attachment: fixed;
-   padding: 20px;
-   text-align: center;
-   margin: auto;
-   margin-top: 8%;
-   color: white;
+   width: auto;
+   height: 200px;
    font-family: myFirstFont;
    overflow: hidden;
    overflow-y: visible;
