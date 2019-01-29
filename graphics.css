@@ -3,7 +3,7 @@
   src: url(pubg.ttf);
 }
 body {
-  background-image: url(pubg3.jpg);
+  background-image: url(pubg1.jpg);
   background-repeat: no-repeat;
   height: device-height;
   width: device-width;
@@ -36,15 +36,15 @@ body {
 }
 .box{
   align-items: center;
-  width: 450px;
+  width: 600px;
   height: auto;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0,0,0,0.6);
   background-position: center center;
   background-attachment: fixed;
   padding: 45px;
   text-align: center;
   margin: auto;
-  margin-top: 8%;
+  margin-top: 2%;
   color: white;
   font-family:myFirstFont;
   overflow: hidden;
