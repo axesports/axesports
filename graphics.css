@@ -3,7 +3,7 @@
   src: url(pubg.ttf);
 }
 body {
-  background-image: url(pubg1.jpg);
+  background-image: url(bg.jpg);
   background-repeat: no-repeat;
   height: device-height;
   width: device-width;
@@ -38,7 +38,7 @@ body {
   align-items: center;
   width: 600px;
   height: auto;
-  background: rgba(0,0,0,0.6);
+  background: none
   background-position: center center;
   background-attachment: fixed;
   padding: 45px;
@@ -136,17 +136,4 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-}
-.twitter
-{
-  width: auto;
-  height: auto;
-}
-@media only screen and (max-width: 720px)
-{
-  .twitter
-  {
-    width: 50%;
-    height: auto;
-  }
 }
