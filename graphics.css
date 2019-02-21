@@ -4,6 +4,7 @@
 }
 body {
   background-image: url(bg.jpg);
+  background-color: white;
   background-repeat: no-repeat;
   height: device-height;
   width: device-width;
@@ -13,7 +14,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color:#464646;
   font-family: 'Century Gothic',sans-serif;
 }
 @media only screen and (max-width: 720px)
@@ -36,7 +36,7 @@ body {
 }
 .box{
   align-items: center;
-  width: 70%;
+  width: 65%;
   height: auto;
   background: none
   background-position: center center;
@@ -63,7 +63,7 @@ body {
      background: none;
      background-position: center;
      background-attachment: fixed;
-     padding: 10px;
+     padding: 3px;
      text-align: center;
      margin: auto;
      margin-top: 8%;
@@ -136,4 +136,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 100%;
+}
+.notice
+{
 }
