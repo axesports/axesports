@@ -4,7 +4,7 @@
 }
 body {
   background: #12c2e9;  /* fallback for old browsers */
-  background: linear-gradient(to bottom, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   height: device-height;
   width: device-width;
@@ -67,17 +67,19 @@ body {
   }
 }
 
-.responsive2
+.noticeimg
 {
-  width: 250px;
-  height: 56px;
+  border-color: ;
+  border: 20px solid rgba(0,0,0, 0.4);
+  width: 50%;
+  height:auto;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 720px)
 {
-  .responsive2
+  .noticeimg
   {
-    width: 150px;
-    height: 30px;
+    width: 100%;
   }
 }
 
