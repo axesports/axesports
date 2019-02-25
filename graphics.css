@@ -3,36 +3,15 @@
   src: url(pubg.ttf);
 }
 body {
-  background-image: url(bg.jpg);
-  background-color: white;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: linear-gradient(to bottom, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   height: device-height;
   width: device-width;
   background-position:center;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   font-family: 'Century Gothic',sans-serif;
-}
-@media only screen and (max-width: 720px)
-{
-  body{
-    /* The file size of this background image is 93% smaller
-     * to improve page load speed on mobile internet connections */
-     background: url(pubg9.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-attachment: fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     overflow: fixed;
-     margin: 0;
-     padding: 0;
-  }
 }
 .box{
   align-items: center;
@@ -117,7 +96,7 @@ body {
 .box li a{
   color: white;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 40px;
   transition: all ease-in-out 250ms;
 }
 .box li a:hover{
@@ -133,10 +112,7 @@ body {
 }
 .round
 {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 100%;
-}
-.notice
-{
 }
