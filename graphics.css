@@ -53,17 +53,17 @@ body {
   }
 }
 
-.responsive1
+.logo
 {
-  width: 400px;
-  height: 60px;
+  width: 20%;
+  height: 20%;
 }
 @media only screen and (max-width: 720px)
 {
-  .responsive1
+  .logo
   {
-    width: 260px;
-    height: 40px;
+    width: 60%;
+    height: 60%;
   }
 }
 
@@ -103,10 +103,6 @@ body {
 }
 .box li a:hover{
   color: #b9b9b9;
-}
-.img1{
-  width: 170px;
-  height: 100px;
 }
 .group{
   width: 95%;
