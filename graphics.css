@@ -20,10 +20,10 @@ body {
   background: none
   background-position: center center;
   background-attachment: fixed;
-  padding: 45px;
+  padding: 40px;
   text-align: center;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 0;
   color: white;
   font-family:myFirstFont;
   overflow: hidden;
@@ -37,7 +37,7 @@ body {
      * to improve page load speed on mobile internet connections */
      align-items: center;
      align-content: center;
-     width: 250px;
+     width: 300px;
      height: auto;
      background: none;
      background-position: center;
@@ -45,7 +45,7 @@ body {
      padding: 3px;
      text-align: center;
      margin: auto;
-     margin-top: 8%;
+     margin-top: 0;
      color: white;
      font-family: myFirstFont;
      overflow: hidden;
@@ -69,7 +69,6 @@ body {
 
 .noticeimg
 {
-  border-color: ;
   border: 20px solid rgba(0,0,0, 0.4);
   width: 50%;
   height:auto;
@@ -113,4 +112,10 @@ body {
   width: 80px;
   height: 80px;
   border-radius: 100%;
+}
+.video
+{
+width: 100%;
+height: auto;
+border-radius: 10px;
 }
