@@ -115,3 +115,15 @@ width: 100%;
 height: auto;
 border-radius: 10px;
 }
+.aplimg
+{
+  width: 50%;
+  height:auto;
+}
+@media only screen and (max-width: 720px)
+{
+  .aplimg
+  {
+    width: 100%;
+  }
+}
