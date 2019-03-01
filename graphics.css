@@ -7,7 +7,7 @@ body {
   background-position:center;
   background-attachment: fixed;
   background-size: cover;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 .box{
   align-items: center;
@@ -21,7 +21,7 @@ body {
   margin: auto;
   margin-top: 0;
   color: white;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
   overflow-y: auto;
 
@@ -43,7 +43,7 @@ body {
      margin: auto;
      margin-top: 0;
      color: white;
-     font-family: Roboto;
+     font-family: myFirstFont;
      overflow: hidden;
      overflow-y: auto;
   }
